@@ -9,3 +9,8 @@ def test_sub_func():
 	assert sub_func(2,1) ==1
 	assert sub_func(-1,-2) ==1
 	assert sub_func(0,0) ==0
+
+def test_mut_func():
+	assert mut_func(1,2) ==2.0
+	assert mut_func(3,2) ==6.0
+	assert mut_func(0,0) ==0.0
